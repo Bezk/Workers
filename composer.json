@@ -1,0 +1,26 @@
+{
+    "name": "bezk/workers",
+    "type": "library",
+    "description": "Great daemonize library for PHP",
+    "keywords": ["daemon","worker","daemonize","processes","fork"],
+    "homepage": "https://github.com/bezk/workers",
+    "license": "MIT",
+    "version": "1.0.0-beta",
+    "time": "2015-04-01",
+    "authors": [
+        {
+            "name": "Anatoliy Bereznyak",
+            "email": "bereznyak@me.com",
+            "homepage": "http://unrealmac.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Workers\\": "src/Workers/"
+        }
+    }
+}
